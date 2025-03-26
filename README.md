@@ -20,7 +20,7 @@ This task involves scraping the landing page of [mate.academy](https://mate.acad
 - **Course Name**
 - **Short Description**
 - **Course Duration**
-In the task the Course type (full-time or flex) is mentioned but it seems like every course can be full-time and flex
+- In the task the Course type (full-time or flex) is mentioned but it seems like every course can be full-time and flex
 
 ### Key Features
 - **Headless Browser:** Uses Chrome in headless mode for efficient, non-GUI operation.
