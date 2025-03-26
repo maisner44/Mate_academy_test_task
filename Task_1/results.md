@@ -4,3 +4,5 @@
 ![image](https://github.com/user-attachments/assets/3c19ed8e-3e13-4561-b644-60a3fb28ddb1)
 # 1.3. User email, lead id and lost reason for users who have lost flex leads from 01.07.2024
 ![image](https://github.com/user-attachments/assets/ac8d0a15-94ac-43e4-8637-bc16e4f16c53)
+
+You can see the following results here due to the size of our database
