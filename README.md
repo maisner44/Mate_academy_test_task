@@ -19,6 +19,8 @@ For this task, PostgreSQL was used to recreate a database with the following tab
 This task involves scraping the landing page of [mate.academy](https://mate.academy/) to extract course information. The scraper collects the following details for each course:
 - **Course Name**
 - **Short Description**
+- **Number of Modules**
+- **Number of Topics**
 - **Course Duration**
 - In the task the Course type (full-time or flex) is mentioned but it seems like every course can be full-time and flex
 
@@ -26,14 +28,10 @@ This task involves scraping the landing page of [mate.academy](https://mate.acad
 - **Headless Browser:** Uses Chrome in headless mode for efficient, non-GUI operation.
 - **Dynamic Content Handling:**
   - Clicks the "Показати більше" ("Show More") button (using JavaScript) to load more courses.
-- **Data Extraction:** Retrieves course name, description, and duration from each course card.
+- **Data Extraction:** Retrieves course_name, description, topics_count, modules_count and duration from each course card.
 - **Output:** The scraped course data is saved to a JSON file (`courses.json`).
 
 ### How to Run the Scraper
-1. Ensure you have Selenium and ChromeDriver installed.
-2. Run the scraper script (e.g., using `python your_scraper.py`).
+1. install required libraries into your venv (requirements.txt also included).
+2. Run the scraper script (e.g., using `python scraper.py`).
 3. The output will be saved as `courses.json`.
-
-requirements.txt also included
-
----
